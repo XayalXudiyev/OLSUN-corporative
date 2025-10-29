@@ -102,9 +102,9 @@ export default function ContactModal({ selectedPackage }: { selectedPackage?: st
 
                         <DialogContent className="max-w-2xl">
                 <DialogHeader>
-                    <DialogTitle className="text-center text-xl">Request Demo for Entertainment Package</DialogTitle>
+                    <DialogTitle className="text-center text-xl">Paketlərimiz üçün Demo Tələbi</DialogTitle>
                     <DialogDescription className="text-sm text-gray-500 text-center">
-                        We'll get back to you within 24 hours
+                        24 saat ərzində sizə geri dönüş edəcəyik
                     </DialogDescription>
                 </DialogHeader>
 

@@ -1,7 +1,6 @@
 "use client";
 
 import { DemoButton } from "@/components/common/DemoButton";
-import { DemoModal } from "@/components/common/DemoModal";
 import { Footer } from "@/components/common/Footer";
 import { HeroSection } from "@/components/common/HeroSection";
 import { PackagesSection } from "@/components/common/PackagesSection";
@@ -12,7 +11,6 @@ import { useRef, useState } from "react";
 export default function Home() {
 
   const [selectedPackage, setSelectedPackage] = useState<string | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
   const packagesRef = useRef<HTMLDivElement>(null);
 
   const handleScrollToPackages = () => {
@@ -25,7 +23,6 @@ export default function Home() {
 
   const handleOpenModal = () => {
     if (selectedPackage) {
-      setIsModalOpen(true);
     }
   };
 
@@ -49,12 +46,6 @@ export default function Home() {
       />
 
       <Footer />
-
-      <DemoModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        selectedPackage={selectedPackage}
-      />
     </div>
 
   );
