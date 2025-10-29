@@ -15,7 +15,7 @@ export function ProblemSection() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <h2 className="text-center text-[#111827] mb-16" style={{ fontSize: '36px', fontWeight: '600' }}>
-          HRların Üzləşdiyi Problemlər
+          Korporativ Tədbir Təşkilatında Üzləşilən Problemlər
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">

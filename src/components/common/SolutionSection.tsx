@@ -27,7 +27,7 @@ export function SolutionSection() {
               <Tag className="w-5 h-5 text-[#10B981]" />
             </div>
             <h3 className="text-[#111827] mb-4" style={{ fontSize: '24px', fontWeight: '700' }}>
-              10-15% Qənaət
+              Xərcə 10-15% Qənaət
             </h3>
             <p className="text-[#6B7280]" style={{ fontSize: '16px' }}>
               Bütün sifarişlərdə əvvəlcədən razılaşdırılmış korporativ endirimlər
